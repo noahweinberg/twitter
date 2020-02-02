@@ -19,9 +19,5 @@ for tweet in public_tweets:
 	analysis = TextBlob(tweet.text)
 	print(analysis.sentiment)
 
-if (analysis.sentiment.polarity < 0):
-	print("this is bad")
-	
-else:
-	print("this is good")
+
 	
